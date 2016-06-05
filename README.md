@@ -2,6 +2,9 @@
 A light and elegent theme ported from Farbox by Cho.
 https://github.com/pagecho/Bedford
 
+## Important
+Fix CSS missing problem. Sorry for the inconvenience. Please re-download the files.
+
 ## ScreenShot
 ![ScreenShot](https://raw.githubusercontent.com/LjxPrime/bedford/master/screenshot.png)
 
