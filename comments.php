@@ -67,13 +67,13 @@
                   <?php $this->comments()->to($comments); ?>
                   <?php if ($comments->have()) : ?>
                   <?php $comments->listComments('before=<div>&after=</div>'); ?>
-				  <?php if ($comments->pageNav()) : ?>
+                  <?php if ($comments->pageNav()) : ?>
                   <div class="page-navigator clearfix">
                     <div class="in-mark">
-					  <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;',0 ,'', 'wrapTag=div&wrapClass='); ?>
+                      <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;',0 ,'', 'wrapTag=div&wrapClass='); ?>
                     </div>
                   </div>
-				  <?php endif; ?>
+                  <?php endif; ?>
                   <?php endif; ?>
                   <script>
                     $(document).ready(function(){

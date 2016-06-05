@@ -24,8 +24,8 @@
   $posts = $db->fetchAll($select);
   $current_year = 0;
   foreach ($posts as $post) {
-	  $type = 'post';
-	  $options = Typecho_Widget::widget('Widget_Options');
+      $type = 'post';
+      $options = Typecho_Widget::widget('Widget_Options');
       $date = new Typecho_Date($post['created']);
       $post['year'] = $date->year;
       $post['month'] = $date->month;

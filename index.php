@@ -26,14 +26,14 @@
                   <div class="post-content"><?php $this->content(''); ?></div>
               </article>
             <?php endwhile; ?>
-			<?php if ($this->pageLink('下一页 &raquo;','next') || $this->pageLink('&laquo; 上一页')) : ?>
+            <?php if ($this->pageLink('下一页 &raquo;','next') || $this->pageLink('&laquo; 上一页')) : ?>
               <div class="page-navigator clearfix">
                 <div class="in-mark">
                 <?php $this->pageLink('下一页 &raquo;','next'); ?>
                 <?php $this->pageLink('&laquo; 上一页'); ?>
                 </div>
               </div>
-			  <?php endif; ?>
+              <?php endif; ?>
             </div>
           </div>
         </div>

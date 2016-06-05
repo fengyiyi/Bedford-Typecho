@@ -17,7 +17,7 @@
                 </h3>
               </li>
               <?php endwhile; ?>
-			  <?php endif; ?>
+              <?php endif; ?>
             </ul>
           </section>
           <section class="widget">
