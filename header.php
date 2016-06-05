@@ -11,7 +11,7 @@
     <meta name="description" content="<?php $this->options->description(); ?>" />
     <title><?php $this->archiveTitle('','',' - '); ?><?php $this->options->title(); ?></title>
 
-    <link href="<?php $this->options->themeUrl('static/style.scss'); ?>" type="text/css" rel="stylesheet"/>
+    <link href="<?php $this->options->themeUrl('static/style.css'); ?>" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="<?php $this->options->themeUrl('static/jquery.min.js'); ?>"></script>
     <!-- Typecho Native Head Output -->
     <?php $this->header(); ?>

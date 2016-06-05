@@ -32,7 +32,7 @@
 
 <?php if ($this->allow('comment')) : ?>
               <div id="comments_container">
-                <div class="in-mark"><link href="<?php $this->options->themeUrl('static/comment-style.scss'); ?>" type="text/css" rel="stylesheet"/>
+                <div class="in-mark"><link href="<?php $this->options->themeUrl('static/comment-style.css'); ?>" type="text/css" rel="stylesheet"/>
                 <div class="comment-title">发表评论</div>
                   <form id="new_comment" method="post" action="<?php $this->commentUrl() ?>">
                     <div class="comment-traggle">

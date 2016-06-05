@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=<?php $this->options->charset(); ?>">
   <link rel="alternate" type="application/rss+xml" title="rss 2.0" href="<?php $this->options->feedUrl(); ?>">
   <meta name="viewport" content="width=device-width"/>
-  <title>请求的页面不存在</title><link href="<?php $this->options->themeUrl('static/style.scss'); ?>" type="text/css" rel="stylesheet"/>
+  <title>请求的页面不存在</title><link href="<?php $this->options->themeUrl('static/style.css'); ?>" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <div class="body404">
