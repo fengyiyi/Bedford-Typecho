@@ -1,10 +1,10 @@
 <?php
 /**
- * A light and elegent theme ported from Farbox by Cho. (Ported by <a href="http://tffans.com">Vincent Liou</a>)
+ * A light and elegent theme ported from Farbox by Cho. (Ported by <a href="mailto:ljxprime@foxmail.com">Vincent Liou</a>)
  * 
  * @package BedFord
  * @author Cho
- * @version 1.0 Beta
+ * @version 1.1
  * @link http://pagecho.com
  */
 ?>
